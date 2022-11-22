@@ -1,0 +1,88 @@
+@font-face {
+    src: url('../fonts/gamefont.ttf');
+    font-family: 'gamefont';
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+a{
+     text-decoration: none;
+}
+body{
+    font-family: 'gamefont', sans-serif;
+    font-size: 62.5%;
+    display: grid;
+    background-image: url('../image/map.png');
+
+}
+canvas{
+    margin: auto;
+    border: 0.5rem solid black;
+}
+canvas:hover{
+    cursor: none;
+    
+}
+.d-flex{
+    display: flex;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+header{
+    align-items: center;
+    padding: 3rem;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 2rem;
+}
+.menu{
+    margin-left: auto;
+    align-items: center;
+}
+.menu a{
+    color: white; 
+    font-size: 1.5rem;  
+}
+.menu a:hover{
+    color: #70BCDB;
+}
+a::before{
+    content: "_";
+    background-image: url('../image/player.gif');
+    background-position: center;
+    margin-right: 0.5rem;
+    display: none;
+}
+a:hover::before{
+    display: unset;
+}
+.menu li{
+    margin: 0 2rem;
+    display: inline;
+    list-style: none;
+}
+.icon{
+    width: 48px;
+    margin-right: 1rem;
+}
+section{
+    display: flex;
+}
+.rules{
+    margin: 7rem 8rem;
+    padding: 3rem;
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+

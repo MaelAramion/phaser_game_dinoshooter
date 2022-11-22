@@ -1,0 +1,11 @@
+{
+  "settings":
+          {
+            "name": "DinoShooter",
+            "_comment": "Les touches doivent être des lettres",
+            "up": "Z",
+            "down": "S",
+            "left": "Q",
+            "right": "D"
+          }
+}
